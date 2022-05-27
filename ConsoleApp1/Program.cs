@@ -66,7 +66,9 @@ namespace ConsoleAppPractice
 
         }
 
-        public string GetDisplayText() => firstName + " " + lastName + ", " + email;
+        public string DisplayName() => firstName + " " + lastName;
+
+        public string DisplayEmail() => "Email: " + email;
 
     }
 
