@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppPractice
 {
-    public class Customer
+    public class Person
     {
         private string firstName;
         private string lastName;
         private string email;
     
 
-        public Customer()
+        public Person()
         {
         }
 
-        public Customer(string firstName, string lastName, string email)
+        public Person(string firstName, string lastName, string email)
         {
             this.FirstName = firstName;
             this.LastName = lastName;
